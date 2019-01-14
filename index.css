@@ -1,0 +1,144 @@
+* { margin: 0; padding: 0; }
+
+header{
+  width: 100%;
+  height: 100%;
+  background: rgb(61, 49, 95);
+  font-size: 6vw;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border: .5vw solid rgb(61, 49, 95);
+  
+}
+
+
+table, th, td {
+    border: 2px solid rgb(61, 49, 95);
+  
+
+    
+  }
+
+  table {
+    background-color:rgb(61, 49, 95);
+    
+    
+  }
+
+  th, td { 
+    
+
+  }
+
+th {
+  background-color: rgb(102, 68, 196);
+  font-size: 3.5vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+td {
+    font-size: 2.5vw;
+    background-color: rgb(224, 231, 255);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section1 {
+  section style= width:30%; 
+  float: Left;
+  margin: -10px;
+  
+}
+
+section2 {
+  width: 77%; 
+  float: right; 
+  background-color: rgb(224, 231, 255);
+       margin: 0 auto;
+     padding: .5vw;
+  
+  
+
+}
+
+article {
+  background: white;
+  align: center;
+  width: 80%;
+  padding: 15;
+  position: relative;
+  margin: 0 auto;
+  border: #FFFFFF solid 1vw;
+}
+
+articlee {
+  background: black;
+  align: center;
+  width: 80%;
+  padding: 15;
+  position: relative;
+  margin: 0 auto;
+}
+
+
+  a:link{
+    color: rgb(61, 49, 95);
+  }
+  a:visited {
+    color: rgb(61, 49, 95);
+  } 
+
+  h3 {
+    animation-duration: .5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  body {
+    background-image: url("bodypic.jpg");
+    background-color: #cccccc;
+   }
+
+h3{
+  font-size: 4vw
+}
+
+p{
+
+  
+  font-size: 2.5vw;
+  
+}
+
+
+
+pe{
+  font-size: 2.5vw;
+  color: white;
+}
+
+footerhome {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(102, 68, 196);
+  color: white;
+  text-align: center;
+  font-size: 2.5vw;
+}
